@@ -9,12 +9,12 @@ proxies:
   - {name: 🇸🇬 新加坡中轉8x, server: cn.gysz1.986888.xyz, port: 13443, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG中轉, server: cn.gysz1.986888.xyz, port: 21106, type: trojan, password: SUR7JlXJfa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 东京中转6, server: cn.gysz1.986888.xyz, port: 46213, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 東京R中轉, server: 140.179.148.92, port: 19108, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 甲骨文ARM中转, server: 140.179.148.92, port: 45872, type: trojan, password: fkvlRK9ObG, sni: cs.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 東京R中轉, server: 140.179.148.92, port: 19108, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 甲骨文ARM中转, server: 140.179.148.92, port: 45872, type: trojan, password: fkvlRK9ObG, sni: cs.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 甲骨文中轉美國, server: 212.103.62.53, port: 33378, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 美國CN2, server: 212.103.62.53, port: 443, type: trojan, password: YjYLiIsPPP, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 443, type: trojan, password: YjYLiIsPPP, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡, server: 8.219.56.193, port: 50443, type: vmess, uuid: 4880f648-13af-4794-b9ea-07f902489a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ss1.ip777.xyz, network: ws, ws-opts: {path: /IELfiSIU7pU, headers: {Host: ss1.ip777.xyz}}, udp: true}
-  - {name: 手機店, server: 8.219.104.230, port: 32675, type: trojan, password: YDDNFXiOfs, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 手機店, server: 8.219.104.230, port: 32675, type: trojan, password: YDDNFXiOfs, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -25,12 +25,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,12 +40,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -56,12 +56,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,12 +84,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -104,12 +104,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: 📲 电报信息
     type: select
     proxies:
@@ -119,12 +119,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -135,12 +135,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,12 +160,12 @@ proxy-groups:
       - 🇸🇬 新加坡中轉8x
       - 🇸🇬 SG中轉
       - 🇯🇵 东京中转6
-      - 東京R中轉
-      - 甲骨文ARM中转
+      - 🇯🇵 東京R中轉
+      - 🇺🇸 甲骨文ARM中转
       - 🇺🇸 甲骨文中轉美國
-      - 美國CN2
+      - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
-      - 手機店
+      - 🇸🇬 手機店
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
