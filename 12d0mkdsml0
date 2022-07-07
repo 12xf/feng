@@ -5,22 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 443, type: trojan, password: YjYLiIsPPP, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 41108, type: trojan, password: BmHpa2OL7J, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡, server: 8.219.56.193, port: 50443, type: vmess, uuid: 4880f648-13af-4794-b9ea-07f902489a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ss1.ip777.xyz, network: ws, ws-opts: {path: /IELfiSIU7pU, headers: {Host: ss1.ip777.xyz}}, udp: true}
   - {name: 🇸🇬 阿里SG, server: 8.219.104.230, port: 41106, type: trojan, password: XcvFO4xXHb, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 正1, server: 8.219.185.174, port: 31524, type: trojan, password: 6lRbn2HQix, sni: zheng1.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 手机店, server: 8.219.104.230, port: 32675, type: trojan, password: YDDNFXiOfs, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡移動, server: 103.20.235.23, port: 443, type: trojan, password: z8uaExIOpa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 R阿什本直连, server: 158.101.98.5, port: 21443, type: trojan, password: zOEIh4UFkg, sni: cs.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG中轉, server: cn.hncu.986888.xyz, port: 12106, type: trojan, password: SUR7JlXJfa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡中轉3x, server: cn.gysz1.986888.xyz, port: 14106, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡中轉3x, server: azbj01.986888.xyz, port: 11206, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本中转, server: cn.hncu.986888.xyz, port: 12108, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 R阿什本中转, server: 140.179.148.92, port: 12285, type: trojan, password: fkvlRK9ObG, sni: cs.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 D东京中转6, server: 140.179.148.92, port: 13106, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 R阿什本中转, server: awsbj01.986888.xyz, port: 34108, type: trojan, password: krDrzxnwos, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 D东京中转6, server: awsbj01.986888.xyz, port: 13106, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京中转8, server: cn.cmcmyd.986888.xyz, port: 13108, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 R东京中转, server: cn.shcu.986888.xyz, port: 14108, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 R东京中转, server: awsbj01.986888.xyz, port: 24108, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,19 +31,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,19 +53,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -73,19 +76,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -107,19 +111,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -133,19 +138,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: 📲 电报信息
     type: select
     proxies:
@@ -154,19 +160,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -176,19 +183,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -207,19 +215,20 @@ proxy-groups:
       - 🇺🇸 美國CN2
       - 🇸🇬 新加坡
       - 🇸🇬 阿里SG
+      - 🇸🇬 正1
       - 🇸🇬 手机店
       - 🇸🇬 新加坡移動
-      - 🇺🇸 D阿什本直连
-      - 🇺🇸 R阿什本直连
-      - 🇯🇵 D东京直连
-      - 🇯🇵 R东京直连
       - 🇸🇬 SG中轉
       - 🇸🇬 新加坡中轉3x
+      - 🇺🇸 D阿什本直连
       - 🇺🇸 D阿什本中转
+      - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
+      - 🇯🇵 D东京直连
       - 🇯🇵 D东京中转6
       - 🇯🇵 D东京中转8
       - 🇯🇵 R东京中转
+      - 🇯🇵 R东京直连
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
