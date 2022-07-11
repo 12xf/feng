@@ -20,7 +20,7 @@ proxies:
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京中转6, server: 120-241-236-219.nhost.00cdn.com, port: 13106, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京中转8, server: 120-241-236-219.nhost.00cdn.com, port: 13108, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 R东京中转, server: 120-241-236-219.nhost.00cdn.com, port: 24108, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 R东京中转, server: awsbj01.986888.xyz, port: 46112, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
