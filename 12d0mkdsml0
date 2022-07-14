@@ -12,7 +12,7 @@ proxies:
   - {name: 🇸🇬 手机店, server: 8.219.104.230, port: 32675, type: trojan, password: YDDNFXiOfs, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡移動, server: 103.20.235.23, port: 443, type: trojan, password: z8uaExIOpa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG中轉, server: cn.hncu.986888.xyz, port: 12106, type: trojan, password: SUR7JlXJfa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡中轉3x, server: azbj01.986888.xyz, port: 11206, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡中轉3x, server: fsyd.kruwik.cn, port: 11206, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本中转, server: cn.shcua.986888.xyz, port: 12108, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
