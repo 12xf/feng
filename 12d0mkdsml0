@@ -9,7 +9,7 @@ proxies:
   - {name: 🇸🇬 新加坡中轉3x, server: fsyd.kruwik.cn, port: 11206, type: trojan, password: vHQCi1jhVz, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡移動, server: 103.20.235.23, port: 443, type: trojan, password: z8uaExIOpa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡, server: 8.219.56.193, port: 50443, type: vmess, uuid: 4880f648-13af-4794-b9ea-07f902489a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ss1.ip777.xyz, network: ws, ws-opts: {path: /IELfiSIU7pU, headers: {Host: ss1.ip777.xyz}}, udp: true}
-  - {name: 🇸🇬 手机店, server: 8.219.104.230, port: 32675, type: trojan, password: YDDNFXiOfs, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 手机店, server: 8.219.104.230, port: 41106, type: trojan, password: XcvFO4xXHb, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 41108, type: trojan, password: BmHpa2OL7J, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 阿里SG, server: 8.219.104.230, port: 41106, type: trojan, password: XcvFO4xXHb, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG中轉, server: cn.hncu.986888.xyz, port: 12106, type: trojan, password: SUR7JlXJfa, sni: feng.fengcj.xyz, skip-cert-verify: false, udp: true}
