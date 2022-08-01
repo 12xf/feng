@@ -9,6 +9,7 @@ proxies:
   - {name: 洁莹, server: 8.219.106.84, port: 31254, type: trojan, password: uNC56vDAbf, sni: jy.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 怡情, server: 8.219.136.139, port: 39300, type: trojan, password: Ox2A3sEyzD, sni: yq.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 慧芳, server: 8.219.96.45, port: 31201, type: trojan, password: zYiNF9wavO, sni: hf.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 德1, server: 8.219.144.23, port: 31564, type: trojan, password: cInaJojQky, sni: fd.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +20,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +30,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,6 +41,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,6 +64,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,6 +79,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,6 +89,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,6 +100,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,6 +120,7 @@ proxy-groups:
       - 洁莹
       - 怡情
       - 慧芳
+      - 德1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
