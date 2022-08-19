@@ -18,7 +18,7 @@ proxies:
   - {name: 🇯🇵 D东京中转6, server: cn.hncu.1aba.cn, port: 41082, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京中转8, server: cn.hncu.1aba.cn, port: 41083, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 R阿什本中转, server: cn.hncu.1aba.cn, port: 31527, type: trojan, password: krDrzxnwos, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 R阿什本中转, server: shcu.1aba.cn, port: 31527, type: trojan, password: krDrzxnwos, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本中转, server: cn.hncu.1aba.cn, port: 41084, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台灣, server: 8.219.104.230, port: 36711, type: trojan, password: iyBcEb21L2, sni: tww.fengcj.xyz, skip-cert-verify: false, udp: true}
