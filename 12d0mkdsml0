@@ -12,17 +12,17 @@ proxies:
   - {name: 🇸🇬 手机店, server: 8.219.104.230, port: 41106, type: trojan, password: XcvFO4xXHb, sni: cj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 41108, type: trojan, password: BmHpa2OL7J, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 R东京中转, server: shcu.1aba.cn, port: 41081, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 阿里云-R东京, server: 8.219.104.230, port: 32675, type: trojan, password: 1AWEI5M2SE, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 D东京中转6, server: shcu.1aba.cn, port: 41082, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 D东京中转8, server: shcu.1aba.cn, port: 41083, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 R阿什本中转, server: shcu.1aba.cn, port: 31527, type: trojan, password: krDrzxnwos, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 tw台灣, server: 8.219.104.230, port: 36711, type: trojan, password: iyBcEb21L2, sni: tww.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 tw台灣中轉, server: awsbj01.1aba.cn, port: 11424, type: trojan, password: PjPi9jv1xK, sni: tww.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 R东京中转, server: shcu.1aba.cn, port: 41081, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 D东京中转6, server: shcu.1aba.cn, port: 41082, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 D东京中转8, server: shcu.1aba.cn, port: 41083, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 D阿什本中转, server: shcu.1aba.cn, port: 41084, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台灣, server: 8.219.104.230, port: 36711, type: trojan, password: iyBcEb21L2, sni: tww.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台灣中轉, server: awsbj01.1aba.cn, port: 11424, type: trojan, password: PjPi9jv1xK, sni: tww.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -36,17 +36,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,17 +59,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -83,17 +83,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -119,23 +119,23 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -149,17 +149,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: 📲 电报信息
     type: select
     proxies:
@@ -172,17 +172,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -196,17 +196,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,17 +229,17 @@ proxy-groups:
       - 🇸🇬 手机店
       - 🇺🇸 美國CN2
       - 🇯🇵 R东京直连
-      - 🇯🇵 R东京中转
       - 🇯🇵 阿里云-R东京
       - 🇯🇵 D东京直连
-      - 🇯🇵 D东京中转6
-      - 🇯🇵 D东京中转8
       - 🇺🇸 R阿什本直连
       - 🇺🇸 R阿什本中转
       - 🇺🇸 D阿什本直连
+      - 🇨🇳 tw台灣
+      - 🇨🇳 tw台灣中轉
+      - 🇯🇵 R东京中转
+      - 🇯🇵 D东京中转6
+      - 🇯🇵 D东京中转8
       - 🇺🇸 D阿什本中转
-      - 🇨🇳 台灣
-      - 🇨🇳 台灣中轉
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
