@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 48291, type: trojan, password: WmUvsf0Qc6, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 49271, type: trojan, password: 4u16w4ITBt, sni: jh1.fengcj.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 41108, type: trojan, password: BmHpa2OL7J, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
