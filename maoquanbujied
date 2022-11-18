@@ -6,10 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡, server: 8.219.100.58, port: 36421, type: trojan, password: i1RR8pcNEe, sni: yqq121.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 慧芳, server: 8.219.96.45, port: 45443, type: trojan, password: XhLEsYmTPT, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 怡青, server: 8.219.136.139, port: 35726, type: trojan, password: JfTM7Tf31r, sni: yq.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 潔瑩, server: 8.219.106.84, port: 36218, type: trojan, password: 2sjOpf7acR, sni: jy.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 49271, type: trojan, password: 4u16w4ITBt, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 慧芳, server: 8.219.96.45, port: 49243, type: trojan, password: eXrt16SSqd, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 怡青, server: 8.219.81.115, port: 57382, type: trojan, password: 5XTcdr0lMs, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 潔瑩, server: 8.219.217.108, port: 46829, type: trojan, password: j9Wh5qdzNH, sni: jy01.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 57243, type: trojan, password: b1MTc6CilO, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 41108, type: trojan, password: BmHpa2OL7J, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
