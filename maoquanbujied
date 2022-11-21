@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡, server: 8.219.100.58, port: 36421, type: trojan, password: i1RR8pcNEe, sni: yqq121.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 慧芳, server: 8.219.96.45, port: 39645, type: trojan, password: StVd5KtqKt, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 怡青, server: 8.219.81.115, port: 53411, type: trojan, password: H1P3IpOgbZ, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡-YQ, server: 8.219.100.58, port: 36421, type: trojan, password: i1RR8pcNEe, sni: yqq121.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 潔瑩, server: 8.219.217.108, port: 30583, type: trojan, password: enPnxz8b5j, sni: jy01.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 47829, type: trojan, password: OqvGfF9jmz, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 27691, type: trojan, password: K1tCefW7IF, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 3C, server: 8.219.97.91, port: 47829, type: trojan, password: OqvGfF9jmz, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 怡青, server: 8.219.81.115, port: 53411, type: trojan, password: H1P3IpOgbZ, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 慧芳, server: 8.219.96.45, port: 39645, type: trojan, password: StVd5KtqKt, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国, server: 212.103.62.53, port: 27691, type: trojan, password: K1tCefW7IF, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
@@ -26,12 +26,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -46,12 +46,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -67,12 +67,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -100,12 +100,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -125,12 +125,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -145,12 +145,12 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -166,12 +166,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -196,12 +196,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡
-      - 🇸🇬 慧芳
-      - 🇸🇬 怡青
+      - 🇸🇬 新加坡-YQ
       - 🇸🇬 潔瑩
-      - 🇸🇬 手机店
-      - 🇺🇸 美國CN2
+      - 🇸🇬 3C
+      - 🇸🇬 怡青
+      - 🇸🇬 慧芳
+      - 🇺🇸 美国
       - 🇯🇵 R东京直连
       - 🇯🇵 D东京直连
       - 🇺🇸 R阿什本直连
@@ -817,7 +817,7 @@ rules:
  - DOMAIN-SUFFIX,5egk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,5imoney.com,🛑 全球拦截
  - DOMAIN-SUFFIX,5jcom.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,5vz3cfs0yd.me,🛑 全球拦截
+ - DOMAIN-SUFFIX,5vz🇸🇬 3Cfs0yd.me,🛑 全球拦截
  - DOMAIN-SUFFIX,5y9nfpes.52pk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,5yrra.deshuangwang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,600ad.com,🛑 全球拦截
@@ -2293,7 +2293,7 @@ rules:
  - DOMAIN-SUFFIX,c77777777.com,🛑 全球拦截
  - DOMAIN-SUFFIX,c8.wangdq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,c8b.jcdb88.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ca.5173car.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ca.517🇸🇬 3Car.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ca.w8.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,caamei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cacaca.0571yy.com,🛑 全球拦截
@@ -3101,7 +3101,7 @@ rules:
  - DOMAIN-SUFFIX,down.xiazaidc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,down.xiazaiyuan.net,🛑 全球拦截
  - DOMAIN-SUFFIX,downlaod.xiaocen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,download.123cw.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,download.12🇸🇬 3Cw.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,download.2345.com,🛑 全球拦截
  - DOMAIN-SUFFIX,download.350.com,🛑 全球拦截
  - DOMAIN-SUFFIX,download.bav.baidu.com,🛑 全球拦截
@@ -3113,7 +3113,7 @@ rules:
  - DOMAIN-SUFFIX,download.sd.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,download.sj.qq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,download.zhushou.sogou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,download3.123cw.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,download3.12🇸🇬 3Cw.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,downloada.dewmobile.net,🛑 全球拦截
  - DOMAIN-SUFFIX,downloadb.dewmobile.net,🛑 全球拦截
  - DOMAIN-SUFFIX,downmobile.kugou.com,🛑 全球拦截
@@ -3900,7 +3900,7 @@ rules:
  - DOMAIN-SUFFIX,grand.ele.me,🛑 全球拦截
  - DOMAIN-SUFFIX,green.erne.co,🛑 全球拦截
  - DOMAIN-SUFFIX,greenhouseglobal.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,greenxfs.down.123ch.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,greenxfs.down.12🇸🇬 3Ch.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsum.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsumdissector.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gridsumdissector.com,🛑 全球拦截
@@ -4307,7 +4307,7 @@ rules:
  - DOMAIN-SUFFIX,img80.net,🛑 全球拦截
  - DOMAIN-SUFFIX,img-ad.oupeng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imgad.thepaper.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,imgad0.3conline.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,imgad0.🇸🇬 3Conline.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imgapp.yeyou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imgc.cymzc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imgcdn.wapx.cn,🛑 全球拦截
@@ -4717,7 +4717,7 @@ rules:
  - DOMAIN-SUFFIX,juzilm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jwpltx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jwqj.net,🛑 全球拦截
- - DOMAIN-SUFFIX,jwz.3conline.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jwz.🇸🇬 3Conline.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jx5m.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jxad.jx163.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jxbjt.com,🛑 全球拦截
@@ -6502,7 +6502,7 @@ rules:
  - DOMAIN-SUFFIX,s.0.0.0.0.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,s.051352.com,🛑 全球拦截
  - DOMAIN-SUFFIX,s.0594529.com,🛑 全球拦截
- - DOMAIN-SUFFIX,s.17173cdn.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,s.1717🇸🇬 3Cdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,s.35kds.com,🛑 全球拦截
  - DOMAIN-SUFFIX,s.5jjx.net,🛑 全球拦截
  - DOMAIN-SUFFIX,s.652748.com,🛑 全球拦截
@@ -9379,7 +9379,7 @@ rules:
  - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
  - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
  - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
- - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
+ - DOMAIN,d🇸🇬 3C7rimkq79yfu.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
  - DOMAIN-SUFFIX,api.mgtv.com,🌍 国外媒体
@@ -9517,10 +9517,10 @@ rules:
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f2🇸🇬 3C::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
- - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
+ - DOMAIN,d🇸🇬 3C33hcgiwev3.cloudfront.net,🔰 节点选择
  - DOMAIN,payments-jp.amazon.com,🔰 节点选择
  - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 节点选择
  - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 节点选择
@@ -9646,7 +9646,7 @@ rules:
  - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f2🇸🇬 3C::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
