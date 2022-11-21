@@ -9,7 +9,7 @@ proxies:
   - {name: 🇸🇬 慧芳, server: 8.219.96.45, port: 39645, type: trojan, password: StVd5KtqKt, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 怡青, server: 8.219.81.115, port: 53411, type: trojan, password: H1P3IpOgbZ, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 潔瑩, server: 8.219.217.108, port: 30583, type: trojan, password: enPnxz8b5j, sni: jy01.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 3C, server: 8.219.97.91, port: 47829, type: trojan, password: OqvGfF9jmz, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 手机店, server: 8.219.97.91, port: 47829, type: trojan, password: OqvGfF9jmz, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美國CN2, server: 212.103.62.53, port: 27691, type: trojan, password: K1tCefW7IF, sni: jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 R东京直连, server: 150.230.97.186, port: 33378, type: trojan, password: Ff3MZ1I0wc, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京直连, server: 158.101.149.56, port: 31106, type: trojan, password: 5Yt33J27JP, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
