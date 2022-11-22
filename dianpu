@@ -7,8 +7,8 @@ external-controller: :9090
 proxies:
   - {name: 潔瑩, server: 8.219.217.108, port: 30583, type: trojan, password: enPnxz8b5j, sni: jy01.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 3C, server: 8.219.97.91, port: 47829, type: trojan, password: OqvGfF9jmz, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 青, server: 8.219.81.115, port: 53411, type: trojan, password: H1P3IpOgbZ, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 慧芳, server: 8.219.96.45, port: 39645, type: trojan, password: StVd5KtqKt, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 青, server: 8.219.81.115, port: 41692, type: trojan, password: OcF4Fcb8Em, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 慧芳, server: 8.219.96.45, port: 46318, type: trojan, password: Dw4wTCxb7t, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
