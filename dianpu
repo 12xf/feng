@@ -8,7 +8,7 @@ proxies:
   - {name: 潔瑩, server: 8.219.217.108, port: 48923, type: trojan, password: HX16iKtvXn, sni: jy01.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 3C, server: 8.219.97.91, port: 48743, type: trojan, password: GVw5etiGGr, sni: jh1.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 青, server: 8.219.81.115, port: 38972, type: trojan, password: kmq8Il2LmY, sni: yq01.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 慧芳, server: 8.219.96.45, port: 46318, type: trojan, password: Dw4wTCxb7t, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 慧芳, server: 8.219.96.45, port: 30988, type: trojan, password: gjXJtpWMEQ, sni: hf1.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
