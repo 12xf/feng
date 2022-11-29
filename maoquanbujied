@@ -15,10 +15,10 @@ proxies:
   - {name: 🇺🇲 R阿什本直连, server: 129.213.117.66, port: 41106, type: trojan, password: Yaib2g1jy3, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇲 R阿什本中转, server: azbj01.1aba.cn, port: 31527, type: trojan, password: krDrzxnwos, sni: 1sj.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇲 D阿什本直连, server: 150.136.57.125, port: 41106, type: trojan, password: kSZddpnUKy, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 R东京中转, server: gddxc.fosi.hk, port: 43083, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 D东京中转6, server: gddxc.fosi.hk, port: 43082, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 R东京中转, server: shdx.donghui.tech, port: 43083, type: trojan, password: LzTdtBMTGT, sni: cxj.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 D东京中转6, server: shdx.donghui.tech, port: 43082, type: trojan, password: noYtoBgCfK, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 D东京中转8, server: gddx.fosi.hk, port: 42081, type: trojan, password: 4gmRM8FqRs, sni: 11jin.fengcj.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇲 D阿什本中转, server: gddxc.fosi.hk, port: 43081, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 D阿什本中转, server: shdx.donghui.tech, port: 43081, type: trojan, password: wGmZeZP6z8, sni: fxe.fengcj.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
